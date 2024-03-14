@@ -6,13 +6,14 @@ Comandos importantes Git:
 -git commit --amend : commita no ultimo commit ja feito.
 
 Config github para facilitar merge, commits e adicionar pretty no git log:
-
+-git config --global core.editor code
+-git config --global --edit
 
 [core]
 	editor = code
 [user]
-	email = thiago772000@gmail.com
-	name = P4vanzinho
+	email = email do github
+	name = usuario do github
 [push]
 	followTags = true
 [core]
